@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Pessoal | Leonardo Guimarães Oliveira</title>
+    <meta
+      name="description"
+      content="Página pessoal de Leonardo Guimarães Oliveira, estudante de Sistemas de Informação, com versões em Bootstrap e Bulma."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./landing.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Atividade Prática 2 · Programação Web</p>
+          <h1>Leonardo Guimarães Oliveira</h1>
+          <p class="hero-text">
+            Estudante de Sistemas de Informação com interesse em desenvolvimento
+            web, automação, estruturas de dados e soluções práticas que unem
+            organização visual e código limpo.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-link" href="./bootstrap/">Abrir versão Bootstrap</a>
+            <a class="secondary-link" href="./bulma/">Abrir versão Bulma</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumo do perfil">
+          <div class="profile-mark" aria-hidden="true">LGO</div>
+          <dl class="facts">
+            <div>
+              <dt>Curso</dt>
+              <dd>Sistemas de Informação</dd>
+            </div>
+            <div>
+              <dt>Instituição</dt>
+              <dd>Universidade Federal de Lavras</dd>
+            </div>
+            <div>
+              <dt>Localidade</dt>
+              <dd>Lavras · MG</dd>
+            </div>
+          </dl>
+        </aside>
+      </header>
+
+      <main>
+        <section class="requirements" aria-labelledby="requirements-title">
+          <div class="section-heading">
+            <p class="eyebrow">Entrega</p>
+            <h2 id="requirements-title">O que este projeto contempla</h2>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <h3>Duas implementações</h3>
+              <p>
+                A mesma página pessoal foi construída em duas versões distintas
+                para comparação entre frameworks CSS.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Responsividade</h3>
+              <p>
+                O layout se adapta a telas menores e maiores sem quebrar a
+                navegação ou o conteúdo.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Tema claro e escuro</h3>
+              <p>
+                As duas versões possuem alternância de tema com JavaScript e
+                persistência da escolha no navegador.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Conteúdo pessoal</h3>
+              <p>
+                A apresentação reúne formação, interesses, projetos e formas de
+                contato de Leonardo.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="versions" aria-labelledby="versions-title">
+          <div class="section-heading">
+            <p class="eyebrow">Navegação</p>
+            <h2 id="versions-title">Escolha a versão para avaliação</h2>
+          </div>
+
+          <div class="version-grid">
+            <article class="version-card bootstrap-card">
+              <span class="tag">Framework 1</span>
+              <h3>Bootstrap</h3>
+              <p>
+                Estrutura baseada em grid, componentes utilitários e seções com
+                visual editorial.
+              </p>
+              <a href="./bootstrap/">Ver página em Bootstrap</a>
+            </article>
+
+            <article class="version-card bulma-card">
+              <span class="tag">Framework 2</span>
+              <h3>Bulma</h3>
+              <p>
+                Composição modular com foco em cartões, blocos tipográficos e
+                contraste entre áreas do conteúdo.
+              </p>
+              <a href="./bulma/">Ver página em Bulma</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="links" aria-labelledby="links-title">
+          <div class="section-heading">
+            <p class="eyebrow">Contato</p>
+            <h2 id="links-title">Links principais</h2>
+          </div>
+
+          <div class="link-row">
+            <a href="https://github.com/leoguimaraes49" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/leo-guimaraes/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Projeto acadêmico desenvolvido para a disciplina de Programação Web.</p>
+        <p>&copy; <span data-current-year></span> Leonardo Guimarães Oliveira</p>
+      </footer>
+    </div>
+
+    <script src="./shared/site.js"></script>
+  </body>
+</html>
