@@ -1,24 +1,22 @@
 # Página Pessoal - Leonardo Guimarães Oliveira
 
-Projeto desenvolvido para a atividade prática de Programação Web, com duas versões da mesma página pessoal:
+Projeto desenvolvido para a atividade prática de Programação Web, com exatamente duas páginas HTML:
 
-- `bootstrap/`: versão usando Bootstrap
-- `bulma/`: versão usando Bulma
+- `index.html`: versão usando Bootstrap
+- `bulma/index.html`: versão usando Bulma
 
 O projeto também inclui:
 
 - layout responsivo
 - alternância entre tema claro e escuro com JavaScript
-- página inicial em `index.html` para navegar entre as duas versões
+- navegação direta entre as duas versões
 
 ## Estrutura
 
 ```txt
 pagina-pessoal-leonardo/
 ├── index.html
-├── landing.css
 ├── bootstrap/
-│   ├── index.html
 │   └── style.css
 ├── bulma/
 │   ├── index.html
